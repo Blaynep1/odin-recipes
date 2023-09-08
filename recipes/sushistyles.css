@@ -63,9 +63,12 @@ justify-content: flex-end;
 
 .home {
 
-    background-color: red;
-    width: 75px;
+    font-size: 100px;
+    width: ;
     border: solid;
     border-radius: 20px;
-
+    position: absolute;
+    float: right;
+    right: 100px;
+    margin-top: 250px;
 }
