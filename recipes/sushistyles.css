@@ -1,0 +1,71 @@
+h1 {
+    text-align: center; 
+    color: #ffa8B6;
+
+
+}
+
+h2 {
+    color: #a28089;
+    font-family: 'Kalam';
+
+}
+
+.descrip {
+    font-family:'Courier New', Courier, monospace;
+    font-size: large; 20px;
+}
+
+.bullets {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+
+
+.ingredients {
+
+
+    position: absolute;
+    float: left;
+    left: 300px;
+    margin-top: -350px;
+    width: 600px;
+    
+}
+
+.steps {
+    position: absolute;
+    float: left;
+    left: 160px;
+    width: 600px;
+    margin-top: 100;
+    
+}
+
+body {
+
+    background-image: url(sushicute.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.imgcontainer {
+    
+height: 400px;
+display: flex;
+flex-direction: row; 
+justify-content: flex-end;
+
+
+}
+
+.home {
+
+    background-color: red;
+    width: 75px;
+    border: solid;
+    border-radius: 20px;
+
+}
