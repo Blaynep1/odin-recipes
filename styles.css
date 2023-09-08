@@ -32,7 +32,7 @@ h1 {
 
 }
 
-#sushirecipe {
+#sushirecipe, #burgerrecipe, #tacorecipe {
     height: 200px;
     width: 350px;
     justify-content: center;
@@ -42,11 +42,37 @@ h1 {
 
 
 
-.sushitext {
+.divtext {
     display: flex;
     justify-content: center;
     margin-top: ;
     font-family: 'Courier New', Courier, monospace;
     
     color: rgb(204, 144, 31);
+}
+
+.burger {
+
+    background-color: rgb(185, 206, 212);
+    position: relative; left: 738px;
+    margin-top: -306px;
+    border: solid;
+    border-radius: 25px;
+    width: 350px;
+    height: 300px;
+
+
+}
+
+.taco{
+
+    background-color: rgb(185, 206, 212);
+    position: relative; left: 1350px;
+    margin-top: -306px;
+    border: solid;
+    border-radius: 25px;
+    width: 350px;
+    height: 300px;
+
+
 }
